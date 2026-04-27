@@ -1,0 +1,22 @@
+# PLANEJAMENTO DO FRONTEND - TASK MANAGER APP
+
+## 1. Tecnologia:
+HTML5, CSS3, JavaScript (Vanilla ou Framework)
+
+## 2. Componentes/Telas:
+- Tela de Listagem: Exibir todas as tarefas em cards ou tabela.
+- Formulário de Criação: Campo de título e descrição + botão "Adicionar".
+- Botões de Ação:
+  - Botão "Concluir" (Check)
+  - Botão "Editar" (Lápis)
+  - Botão "Excluir" (Lixeira)
+
+## 3. Integração com a API (Lógica JS)
+- Função carregarTarefas(): Fetch GET para /tarefas
+- Função adicionarTarefa(): Fetch POST para /tarefas
+- Função editarTarefa(): Fetch PUT para /tarefas/:id
+- Função deletarTarefa(): Fetch DELETE para /tarefas/:id
+
+## 4. Estilo (UX)
+- Design simples e responsivo.
+- Feedback visual quando uma tarefa for concluída (ex: riscar o texto).

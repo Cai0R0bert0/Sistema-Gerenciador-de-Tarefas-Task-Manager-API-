@@ -1,0 +1,22 @@
+# PLANEJAMENTO DO BACKEND - TASK MANAGER API
+
+## 1. Tecnologia: 
+[Escolha uma: Python/Flask, Node.js, ou PHP]
+
+## 2. Estrutura de Dados (Task Object)
+Cada tarefa será um objeto JSON com:
+- id: Inteiro (identificador único)
+- titulo: String (título da tarefa)
+- descricao: String (opcional)
+- concluido: Booleano (true/false)
+- data_criacao: Data
+
+## 3. Endpoints (Rotas da API)
+- POST   /tarefas       -> Cria uma nova tarefa
+- GET    /tarefas       -> Lista todas as tarefas
+- GET    /tarefas/:id   -> Detalha uma tarefa específica
+- PUT    /tarefas/:id   -> Atualiza uma tarefa (editar ou marcar como concluída)
+- DELETE /tarefas/:id   -> Remove uma tarefa
+
+## 4. Dependências necessárias
+- [Listar bibliotecas que você instalará, ex: Flask, Cors, etc]
